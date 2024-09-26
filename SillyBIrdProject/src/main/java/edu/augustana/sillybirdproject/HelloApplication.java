@@ -18,8 +18,10 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
-        launch();
-        System.out.print("Hello bird world!");
+       // launch();
+        //System.out.print("Hello bird world!");
+        Chicken chicken = new Chicken();
+        chicken.dance();
     }
 
 }
